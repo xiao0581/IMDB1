@@ -86,7 +86,7 @@ namespace IMDB1
                 }
                 catch (Exception ex)
                 {
-                    transaction.Rollback();  
+                    transaction.Rollback();  6
                     Console.WriteLine($"insert fail roll back: {ex.Message}");
                 }
             }
